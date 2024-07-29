@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.13.4.104:3309/zl_db?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&max_query_size=100000000
+    username: root
+    password: 123456
+
+
+hx:
+  area:
+    enable: true
+
+#mybatis-plus:
+#  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: com.joelly.area.model
+
